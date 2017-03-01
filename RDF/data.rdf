@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:obo="http://purl.obolibrary.org/obo/"
+  xmlns:gr_ont="http://genomic-resources.eu/ontology/"
+  xmlns:gr_data="http://genomic-resources.eu/resource/">
+    
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Prot_A">
+    <gr_ont:binds_to rdf:resource="http://genomic-resources.eu/resource/Prot_B"/> 
+    <obo:BFO_0000056 rdf:resource="http://openlifedata.org/go:0001586"/>
+    <rdfs:label>Protein A</rdfs:label>
+    <rdf:type rdf:resource="http://genomic-resources.eu/ontology/Protein"/>
+  </rdf:Description>
+    
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Prot_B">
+    <gr_ont:codified_by rdf:resource="http://genomic-resources.eu/resource/Gene_B"/> 
+    <rdf:type rdf:resource="http://genomic-resources.eu/ontology/Protein"/>
+    <rdfs:label>Protein B</rdfs:label>
+    <owl:sameAs rdf:resource="http://purl.uniprot.org/uniprot/P08251"/>
+    <owl:differentFrom rdf:resource="http://genomic-resources.eu/resource/Prot_A"/>
+    <gr_ont:part_of rdf:resource="http://genomic-resources.eu/resource/Mitochondrion"/>
+  </rdf:Description>
+    
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Mitochondrion">
+    <rdf:type rdf:resource="http://genomic-resources.eu/ontology/Organelle"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Gene_B">
+    <gr_ont:part_of rdf:resource="http://genomic-resources.eu/resource/Nucleolus"/>
+    <rdf:type rdf:resource="http://genomic-resources.eu/ontology/Gene"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Nucleus">
+    <rdf:type rdf:resource="http://genomic-resources.eu/ontology/Organelle"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Nucleolus">
+    <rdf:type rdf:resource="http://genomic-resources.eu/ontology/Organelle"/>
+  </rdf:Description>
+</rdf:RDF>
+
+

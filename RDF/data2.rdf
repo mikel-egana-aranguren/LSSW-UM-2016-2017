@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:obo="http://purl.obolibrary.org/obo/"
+  xmlns:gr_ont="http://genomic-resources.eu/ontology/"
+  xmlns:gr_data="http://genomic-resources.eu/resource/">
+      
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Nucleolus">
+    <gr_ont:part_of rdf:resource="http://genomic-resources.eu/resource/Nucleus"/>
+  </rdf:Description>
+   
+</rdf:RDF>
