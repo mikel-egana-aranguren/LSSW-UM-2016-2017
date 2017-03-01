@@ -1,0 +1,36 @@
+[
+  {
+    "@id":"http://dbpedia.org/resource/Tim_Berners-Lee"
+  },
+  {
+    "@id":"http://www.w3.org/",
+    "http://purl.org/dc/elements/1.1/title":
+      [
+	{
+	  "@value":"World Wide Web Consortium"
+	}
+      ],
+    "http://gipuzkoa.eus/prop/member":
+      [
+	{
+	  "@id":"http://dbpedia.org/resource/Tim_Berners-Lee"
+	}
+      ]
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

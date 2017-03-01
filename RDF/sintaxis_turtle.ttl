@@ -1,0 +1,6 @@
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix ns0: <http://gipuzkoa.eus/prop/> .
+
+<http://www.w3.org/>
+  dc11:title "World Wide Web Consortium" ;
+  ns0:member <http://dbpedia.org/resource/Tim_Berners-Lee> .
