@@ -34,6 +34,4 @@
         # resource URIs; if not present, defaults to ""
         conf:webResourcePrefix "resource/";
     ];
-
-
     .
