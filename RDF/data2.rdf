@@ -10,5 +10,9 @@
   <rdf:Description rdf:about="http://genomic-resources.eu/resource/Nucleolus">
     <gr_ont:part_of rdf:resource="http://genomic-resources.eu/resource/Nucleus"/>
   </rdf:Description>
+  
+  <rdf:Description rdf:about="http://genomic-resources.eu/resource/Gene_B">
+    <gr_ont:name>Gene B</gr_ont:name>
+  </rdf:Description>
    
 </rdf:RDF>
