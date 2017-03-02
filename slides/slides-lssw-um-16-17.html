@@ -545,7 +545,6 @@ WHERE{
   ?p gr_ont:part_of ?part .</span><span style="font-size:0.7em">
  
   <span style="color:#808080"># Tiene que tener un rdfs:label, o no
-
   </span>OPTIONAL{
      ?p rdfs:label ?label
   }</span><span style="font-size:0.7em">
@@ -638,20 +637,69 @@ WHERE{
 </div></div>
 
 
-</section><section data-id="b248cbfac0a828368dda034acb60e346"><div data-block-id="b2ca3cb9e780bdd4b066a94f8e7ae015" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 28px; height: auto;"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
-<h2>Consultas federadas</h2>
+</section><section data-id="f85d7d4a2a9b4eca4d8cde60ba9dbcdc"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="06b50fc0767fb96e6e0f9e6a4ede9dbe"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2 style="text-align:left">CONSTRUCT</h2>
+
+<h2 style="text-align:left"> </h2>
+
+<p>Los siguientes ejemplos con lo que se construya aqui</p>
+
+<p>MimeTypes diferentes para resultado de esto y resultado de select</p>
 </div></div>
-<div data-block-id="f86553e90b4921ffc7ec86b2ce533d3e" style="height: auto; width: 800px; left: 80px; top: 190px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
-<pre><span style="font-size:0.7em">PREFIX up:&lt;http://purl.uniprot.org/core/&gt; 
-SELECT ?prot ?protein
-WHERE{
-  ?prot rdfs:comment 'A4_HUMAN'
-  <strong>SERVICE &lt;http://sparql.uniprot.org/&gt;</strong>{
-        ?protein a up:Protein .
-        ?protein up:mnemonic 'A4_HUMAN'
-                 }
-}</span></pre>
+
+
+</section><section data-id="6fc0c5293553dbc2d385f88276ba89f8"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="ddf0294fa2369abe8da88d5aab297581"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2 style="text-align: left;">CONSTRUCT</h2>
+
+<h2 style="text-align: left;">DELETE</h2>
+
+<h2 style="text-align: left;">DELETE DATA</h2>
+
+<h2 style="text-align: left;">INSERT</h2>
+
+<h2 style="text-align: left;">INSERT DATA</h2>
 </div></div>
+
+
+</section><section data-id="1949269f9b3e4e7d4e806557176e234c"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="8921b72dd855360d5f979788548bb642"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2 style="text-align: left;">CONSTRUCT</h2>
+
+<h2 style="text-align: left;">DELETE</h2>
+
+<h2 style="text-align: left;">DELETE DATA</h2>
+
+<h2 style="text-align: left;">INSERT</h2>
+
+<h2 style="text-align: left;">INSERT DATA</h2>
+</div></div>
+
+
+</section><section data-id="0ffe57b430a5dc73d0ce964cbf5dcb92"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="614ec8bab4bf78588e3052d1f45888c8"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2 style="text-align: left;">CONSTRUCT</h2>
+
+<h2 style="text-align: left;">DELETE</h2>
+
+<h2 style="text-align: left;">DELETE DATA</h2>
+
+<h2 style="text-align: left;">INSERT</h2>
+
+<h2 style="text-align: left;">INSERT DATA</h2>
+</div></div>
+
+
+</section><section data-id="99877f0ff813bd87ee476474b2330808"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="6c0a5958b7a90cb901ca52cf94bba3a2"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2 style="text-align: left;">CONSTRUCT</h2>
+
+<h2 style="text-align: left;">DELETE</h2>
+
+<h2 style="text-align: left;">DELETE DATA</h2>
+
+<h2 style="text-align: left;">INSERT</h2>
+
+<h2 style="text-align: left;">INSERT DATA</h2>
+</div></div>
+
+
 </section><section data-id="46af583579c287808f0fee0df5a94c04"><div data-block-id="9fcce064fe128632a71e3b7bec0fc2a9" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 28px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
 <h2>GRAFOS</h2>
 </div></div>
@@ -716,7 +764,21 @@ WHERE {?s ?p ?o}</span>
 <strong><s>FROM &lt;http://example/bookStore&gt;</s></strong>
 WHERE {?s ?p ?o}</span> 
 </pre>
-</div></div></section><section data-id="7a248d348c67958503aa3fa874452e20"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 28px; height: auto;" data-block-id="9b1b58402e0c01ad646a09563a6163d8"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+</div></div></section><section data-id="b248cbfac0a828368dda034acb60e346"><div data-block-id="b2ca3cb9e780bdd4b066a94f8e7ae015" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 28px; height: auto;"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2>Consultas federadas</h2>
+</div></div>
+<div data-block-id="f86553e90b4921ffc7ec86b2ce533d3e" style="height: auto; width: 800px; left: 80px; top: 190px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<pre><span style="font-size:0.7em">PREFIX up:&lt;http://purl.uniprot.org/core/&gt; 
+SELECT ?prot ?protein
+WHERE{
+  ?prot rdfs:comment 'A4_HUMAN'
+  <strong>SERVICE &lt;http://sparql.uniprot.org/&gt;</strong>{
+        ?protein a up:Protein .
+        ?protein up:mnemonic 'A4_HUMAN'
+                 }
+}</span></pre>
+</div></div>
+</section><section data-id="7a248d348c67958503aa3fa874452e20"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 28px; height: auto;" data-block-id="9b1b58402e0c01ad646a09563a6163d8"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
 <h2>UNIPROT</h2>
 </div></div>
 
@@ -1662,7 +1724,7 @@ $ curl -L -H "Accept: application/rdf+xml" http://localhost:<span style="color:#
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":387940,"username":"mikel-egana-aranguren","name":"","description":"","thumbnail_url":"https://www.gravatar.com/avatar/204c0fa7f31917fad2a1f732a037262c?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":224705,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null},"email":"mikel.egana.aranguren@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":918689,"slug":"lssw-um-16-17","title":"LSSW UM 16 17","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-02-21T15:51:13.422Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/406e35c6662b676dff2fa54faf6788f0/thumb.jpg","view_count":9,"user":{"id":387940,"username":"mikel-egana-aranguren","name":"","description":"","thumbnail_url":"https://www.gravatar.com/avatar/204c0fa7f31917fad2a1f732a037262c?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":224705,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1488404989978,"font_typekit":null,"font_google":null,"access_token":"ZusKFKKZUSqRYTryKAx6q8DZxT8r","notes":{"57a0daf7472d58bbf00f638ff7639d2a":"Normalmente los proveedores de informacion usan tecnicas SEO para mejor posicionamiento en busquedas\n\nSe puede ir mas alla y usar schema para anotar nuestros datos y asi Google los muestra estructurados, de forma mas precisa\n\nHacer click en IMDB y buscar terminos schema, eg agregate rating","e957a783c13a3e3ba15b27da39193b8e":"Combinar diferentes tipos de información en visualizaciones específicas\n\nproperties of named bathing water http://environment.data.gov.uk/bwq/profiles/\n\nhttp://environment.data.gov.uk/bwq/sparql.html (Properties of named bathing water)\n","f692631689f49efc51df96696e5ee61f":"Cabinet secretary; salary-data\n","1d981bd086e15555afbd7364cc538885":"Todo triples\n\nMirar query abajo\n\nDiferentes fomratos arriba dcha\n\npost in; cabinet office; lupa (puestos similares)","870efb06613e90001fb708920a52c934":"http://www.w3.org/2001/sw/sweo/public/UseCases/BBC/\n\nEs interesante que los periodistas no mantienen el contenido, editan wikipedia/Dbpedia, generando valor añadido para toda la red: los enlaces nuevos que generamos todo el mundo los puede consumir\n\n","d56259039b7f65ebc65c777fa2d76583":"Is part of etc son enlaces tipados, sabemos por que se enlaza\n\nhttp://europeana.ontotext.com/sparql\n\nEs un buscador facetado\n","8bbf90c3c4a68f4d8f184ec7d0f1b72b":"Click en imagen, buscar city\n\nVisitar ontologías mas comunes","894175a3b01bbdabfcba7ca3fcfca307":"Click y buscar","a3e5c52b0e863daa8017d4a5360e87e6":"Optional para buscar grafos alternativos\n\nUna ventaja de SPARQL es que puede tratar datos heterogeneos","10a3e15a710c27d568bbcaaf695993d7":"Subir Museoak.rdf\nCopiar y pegar (hacer yo)\nCada ejemplo que lo prueben en el triple store\nEsperar hasta que terminen\n\n","40f99fb8a02c032e45c0c7bcc78aa8d2":"Es la unica vez que vamos a generar RDF a mano","3b7e9994d117a2b559d17e650b1a3d4e":"Hago yo pero que me sigan\n\nError prefixes!!!!","78bd94c04ef0f616afd5ec8e59f98440":"Que vayan a LOD a buscar museo","42e19e0403ca00f96ecaf29851f7877c":"Sintaxis básica y estructura general","79c1bb5e1102237316243145ea7c2558":"Para buscar grafos que existen o no\n\nJuant Goytisolo no va a salir","2de3d68ce228b86a50a5bf6a4cb6a6ab":"Borrar DISTINCT \n\nSeleccionar ?person tambien para ver de donde viene la redundancia","4caa56152728206242f129c5237123dc":"Pestaña update en blazegraph","36fb5a81816c94c8e1a2e87717ca14a4":"Explicar bloques\n\nESC","760063b80f9fadeca92f02e8104d4bcd":"Conclusion","fb024b259516266e90a4b1672d5dfb71":"1------------------------------------------\n\nlangilea equivalentTo worksFor some museum\nlangilea2 equivalentTo worksFor min 2 museum\n\nmuseum differentFrom!!!!!\n\n2------------------------------------------\nbilbotarlangilea equivalentTo worksFor some museum and bizilekua value Bilbo\n\n3------------------------------------------\nworksFor o kokalekua = bizilekua\n\n4-------------------------------------------\nbilbo kokalekua Euskadi\nkokalekua transitive\neuskalmuseum equivalentTo kokalekua value Euskadi","85644a476553f057272f7430672fe123":"Cada nivel añade más semantica\n\nLa pila es backwards compatilbe dentro de ella misma y con la web\n\nVamos a volver varias veces a esta pila\n\n","528e4b8192a979d07f21229c453d18d0":"Parecido a REST","1b9db58d2815d9a910fee4fc4a0d59f5":"Demo","664af2b43f0a80f9840ceb49a453f066":"Las lineas generales se tendran que aplicar tambien en ayuntamientos y diputaciones","4c47a32ed07fff814f3dc86a095b5344":"Quien soy yo\nQue hago en Eurohelp\nDef general Linked Open Data","983921ef409d0ee362f4e623d523d995":"Google \"Mikel Egaña Aranguren\" \u003e\u003e mi web \u003e\u003e teaching (HTML)\n\nQue vayan a la URL de las slides: \n- pueden hacer click en enlaces, \n- explicar flechas\n- explicar ESC\n\nMe pueden interrumpir","d89097f405e05cf4fe3506d46fba9f93":"USo de RDFa en boton \"me gusta\"","d679cf69428fb261c806e18f468a91c4":"Stardog incluye posibilidad de property graphs, como neo4j\n\nTrifid-LD does not care about HTTPRange-14 and neither should you. We consider the extra 303 redirect round-trip a waste of precious response time. You get back what you asked for in content-negotiation\n\nEl mio es muy cutre","3407c415d39d90a67801d449f2c9cd0e":"Para todos los ejercicios","957366dd1748dbe6a7c1d0dee0913d95":"Juan Goytisolo","1e20fa122d93637324244dc392e06297":"Cambiar a ASC","f6a305e913d91e08dbdde9408e1da0ca":"OFFSET 9","83aea9f6fa86502a5752daea11b41b7d":"Muy util para Linked Data","b248cbfac0a828368dda034acb60e346":"2 estrategias:\n- consultas federadas\n- usar URIs como keys, descomponer consultas y no hacer SERVICE","ea62774c3ab6fdb3af505b1e650d952c":"Abrir silk-config.xml","729058eb88e3390b0d2c151f79f10feb":"make museums distinct","a6fdd3934acb522f52c75c6ad96dd63c":"kokalekua transitive","ce61178e00a665b228c8d487df5f7033":"curl -I","1310896f65c1d8cd955a984efcf0898d":"Que miren enlaces internos (vuelve a empezar) y externos: bilbo owl same as y predicados","277bcfb66dacdd179d78b46f50830b00":"Limitaciones APIs:\n- Integrar datos (modelo diferente)\n- enlazar items de datos\n- son locales al recurso\n","f01a0c419416774366bec90c5de3e938":"No nos podemos referir a una celda de la tabla\nNo la podemos enlazar\nSi nos bajamos este archivo, el programa no sabe lo que significa cada columna\nEs dificil integrarlo con otros datos","78ddb031d85373c09104dee4e5a3d212":"SELECT ?p ?o\nWHERE{\n \u003chttp://dbpedia.org/resource/Berlin\u003e ?p ?o\n}\n\nhttp://dbpedia.org/ontology/country Germany","4931507c61eb784e6543044f94af8eb9":"owl:sameAs: enlace (predicado) con significado, de modo que se pueden hacer Apps \"inteligentes\" que pueden seguir los enlaces y consumir datos\n\nno solo sameAs: partof, country, ...","f3236de9536567df3c975774749c67f5":"\"a remolque\": tablas relacionales, si se actualiza una tabla que comparte key, no tenemos que actualizar la nuestra","8680098e126348bbb682af3620246fb9":"Se puede \"federar\" sin service, mediante URIs y enlaces","b62c54daaf9e57f1de65380e0bef3cf6":"Copiar y pegar en W3C RDF validator","ed01edf619993fff90fa6195df7901c8":"Preguntar: que nos devolvera?","9b6dcaf086d5505ffe52e9b58a9be3c0":"Fijaros que primero hacemos un insert","c15cfb5c5ea18103bb415185242b41f7":"Linked Data aplica gran parte del stack\n\nPero lo mas importante en Linked Data es RDF (modelo de datos) y URI (identificadores)\n\nSPARQL es menos importante\n\nOWL es el menos importante (de hecho se puede hacer Linked Data sin OWL)","3530fdee452033c641617476f2d9b31d":"Es interactivo!","59106e85c61f36815f26190bac2e5313":"Click y mirar","3ef214457cd307726d0513bea96d3c24":"Click y mirar"}}};
+	var SLConfig = {"current_user":{"id":387940,"username":"mikel-egana-aranguren","name":"","description":"","thumbnail_url":"https://www.gravatar.com/avatar/204c0fa7f31917fad2a1f732a037262c?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":224705,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null},"email":"mikel.egana.aranguren@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":918689,"slug":"lssw-um-16-17","title":"LSSW UM 16 17","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-02-21T15:51:13.422Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/406e35c6662b676dff2fa54faf6788f0/thumb.jpg","view_count":11,"user":{"id":387940,"username":"mikel-egana-aranguren","name":"","description":"","thumbnail_url":"https://www.gravatar.com/avatar/204c0fa7f31917fad2a1f732a037262c?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":224705,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1488476854028,"font_typekit":null,"font_google":null,"access_token":"ZusKFKKZUSqRYTryKAx6q8DZxT8r","notes":{"57a0daf7472d58bbf00f638ff7639d2a":"Normalmente los proveedores de informacion usan tecnicas SEO para mejor posicionamiento en busquedas\n\nSe puede ir mas alla y usar schema para anotar nuestros datos y asi Google los muestra estructurados, de forma mas precisa\n\nHacer click en IMDB y buscar terminos schema, eg agregate rating","e957a783c13a3e3ba15b27da39193b8e":"Combinar diferentes tipos de información en visualizaciones específicas\n\nproperties of named bathing water http://environment.data.gov.uk/bwq/profiles/\n\nhttp://environment.data.gov.uk/bwq/sparql.html (Properties of named bathing water)\n","f692631689f49efc51df96696e5ee61f":"Cabinet secretary; salary-data\n","1d981bd086e15555afbd7364cc538885":"Todo triples\n\nMirar query abajo\n\nDiferentes fomratos arriba dcha\n\npost in; cabinet office; lupa (puestos similares)","870efb06613e90001fb708920a52c934":"http://www.w3.org/2001/sw/sweo/public/UseCases/BBC/\n\nEs interesante que los periodistas no mantienen el contenido, editan wikipedia/Dbpedia, generando valor añadido para toda la red: los enlaces nuevos que generamos todo el mundo los puede consumir\n\n","d56259039b7f65ebc65c777fa2d76583":"Is part of etc son enlaces tipados, sabemos por que se enlaza\n\nhttp://europeana.ontotext.com/sparql\n\nEs un buscador facetado\n","8bbf90c3c4a68f4d8f184ec7d0f1b72b":"Click en imagen, buscar city\n\nVisitar ontologías mas comunes","894175a3b01bbdabfcba7ca3fcfca307":"Click y buscar","a3e5c52b0e863daa8017d4a5360e87e6":"Optional para buscar grafos alternativos\n\nUna ventaja de SPARQL es que puede tratar datos heterogeneos","10a3e15a710c27d568bbcaaf695993d7":"Subir Museoak.rdf\nCopiar y pegar (hacer yo)\nCada ejemplo que lo prueben en el triple store\nEsperar hasta que terminen\n\n","40f99fb8a02c032e45c0c7bcc78aa8d2":"Es la unica vez que vamos a generar RDF a mano","3b7e9994d117a2b559d17e650b1a3d4e":"Hago yo pero que me sigan\n\nError prefixes!!!!","78bd94c04ef0f616afd5ec8e59f98440":"Que vayan a LOD a buscar museo","42e19e0403ca00f96ecaf29851f7877c":"Sintaxis básica y estructura general","79c1bb5e1102237316243145ea7c2558":"Para buscar grafos que existen o no\n\nJuant Goytisolo no va a salir","2de3d68ce228b86a50a5bf6a4cb6a6ab":"Borrar DISTINCT \n\nSeleccionar ?person tambien para ver de donde viene la redundancia","4caa56152728206242f129c5237123dc":"Pestaña update en blazegraph","36fb5a81816c94c8e1a2e87717ca14a4":"Explicar bloques\n\nESC","760063b80f9fadeca92f02e8104d4bcd":"Conclusion","fb024b259516266e90a4b1672d5dfb71":"1------------------------------------------\n\nlangilea equivalentTo worksFor some museum\nlangilea2 equivalentTo worksFor min 2 museum\n\nmuseum differentFrom!!!!!\n\n2------------------------------------------\nbilbotarlangilea equivalentTo worksFor some museum and bizilekua value Bilbo\n\n3------------------------------------------\nworksFor o kokalekua = bizilekua\n\n4-------------------------------------------\nbilbo kokalekua Euskadi\nkokalekua transitive\neuskalmuseum equivalentTo kokalekua value Euskadi","85644a476553f057272f7430672fe123":"Cada nivel añade más semantica\n\nLa pila es backwards compatilbe dentro de ella misma y con la web\n\nVamos a volver varias veces a esta pila\n\n","528e4b8192a979d07f21229c453d18d0":"Parecido a REST","1b9db58d2815d9a910fee4fc4a0d59f5":"Demo","664af2b43f0a80f9840ceb49a453f066":"Las lineas generales se tendran que aplicar tambien en ayuntamientos y diputaciones","4c47a32ed07fff814f3dc86a095b5344":"Quien soy yo\nQue hago en Eurohelp\nDef general Linked Open Data","983921ef409d0ee362f4e623d523d995":"Google \"Mikel Egaña Aranguren\" \u003e\u003e mi web \u003e\u003e teaching (HTML)\n\nQue vayan a la URL de las slides: \n- pueden hacer click en enlaces, \n- explicar flechas\n- explicar ESC\n\nMe pueden interrumpir","d89097f405e05cf4fe3506d46fba9f93":"USo de RDFa en boton \"me gusta\"","d679cf69428fb261c806e18f468a91c4":"Stardog incluye posibilidad de property graphs, como neo4j\n\nTrifid-LD does not care about HTTPRange-14 and neither should you. We consider the extra 303 redirect round-trip a waste of precious response time. You get back what you asked for in content-negotiation\n\nEl mio es muy cutre","3407c415d39d90a67801d449f2c9cd0e":"Para todos los ejercicios","957366dd1748dbe6a7c1d0dee0913d95":"Juan Goytisolo","1e20fa122d93637324244dc392e06297":"Cambiar a ASC","f6a305e913d91e08dbdde9408e1da0ca":"OFFSET 9","83aea9f6fa86502a5752daea11b41b7d":"Muy util para Linked Data","b248cbfac0a828368dda034acb60e346":"2 estrategias:\n- consultas federadas\n- usar URIs como keys, descomponer consultas y no hacer SERVICE","ea62774c3ab6fdb3af505b1e650d952c":"Abrir silk-config.xml","729058eb88e3390b0d2c151f79f10feb":"make museums distinct","a6fdd3934acb522f52c75c6ad96dd63c":"kokalekua transitive","ce61178e00a665b228c8d487df5f7033":"curl -I","1310896f65c1d8cd955a984efcf0898d":"Que miren enlaces internos (vuelve a empezar) y externos: bilbo owl same as y predicados","277bcfb66dacdd179d78b46f50830b00":"Limitaciones APIs:\n- Integrar datos (modelo diferente)\n- enlazar items de datos\n- son locales al recurso\n","f01a0c419416774366bec90c5de3e938":"No nos podemos referir a una celda de la tabla\nNo la podemos enlazar\nSi nos bajamos este archivo, el programa no sabe lo que significa cada columna\nEs dificil integrarlo con otros datos","78ddb031d85373c09104dee4e5a3d212":"SELECT ?p ?o\nWHERE{\n \u003chttp://dbpedia.org/resource/Berlin\u003e ?p ?o\n}\n\nhttp://dbpedia.org/ontology/country Germany","4931507c61eb784e6543044f94af8eb9":"owl:sameAs: enlace (predicado) con significado, de modo que se pueden hacer Apps \"inteligentes\" que pueden seguir los enlaces y consumir datos\n\nno solo sameAs: partof, country, ...","f3236de9536567df3c975774749c67f5":"\"a remolque\": tablas relacionales, si se actualiza una tabla que comparte key, no tenemos que actualizar la nuestra","8680098e126348bbb682af3620246fb9":"Se puede \"federar\" sin service, mediante URIs y enlaces","b62c54daaf9e57f1de65380e0bef3cf6":"Copiar y pegar en W3C RDF validator","ed01edf619993fff90fa6195df7901c8":"Preguntar: que nos devolvera?","9b6dcaf086d5505ffe52e9b58a9be3c0":"Fijaros que primero hacemos un insert","c15cfb5c5ea18103bb415185242b41f7":"Linked Data aplica gran parte del stack\n\nPero lo mas importante en Linked Data es RDF (modelo de datos) y URI (identificadores)\n\nSPARQL es menos importante\n\nOWL es el menos importante (de hecho se puede hacer Linked Data sin OWL)","3530fdee452033c641617476f2d9b31d":"Es interactivo!","59106e85c61f36815f26190bac2e5313":"Click y mirar","3ef214457cd307726d0513bea96d3c24":"Click y mirar"}}};
 </script>
 
 		<script>
