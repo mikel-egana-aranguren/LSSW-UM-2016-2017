@@ -1,0 +1,1 @@
+java -server -Djetty.port=8081 -jar bigdata-bundled.jar
