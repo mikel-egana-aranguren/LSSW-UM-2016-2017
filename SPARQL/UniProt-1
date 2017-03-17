@@ -1,0 +1,9 @@
+PREFIX up:<http://purl.uniprot.org/core/> 
+
+SELECT (COUNT(?protein) AS ?count)
+
+WHERE {
+
+?protein a up:Protein 
+
+}
