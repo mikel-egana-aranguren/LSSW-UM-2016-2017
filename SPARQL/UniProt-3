@@ -1,0 +1,20 @@
+PREFIX up:<http://purl.uniprot.org/core/>
+PREFIX keywords:<http://purl.uniprot.org/keywords/>
+PREFIX uniprotkb:<http://purl.uniprot.org/uniprot/>
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/>
+PREFIX ec:<http://purl.uniprot.org/enzyme/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX bibo:<http://purl.org/ontology/bibo/>
+PREFIX dc:<http://purl.org/dc/terms/>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX faldo:<_http://biohackathon.org/resource/faldo_#>
+
+SELECT ?enzyme ?act
+
+WHERE {
+  uniprotkb:Q9SZZ8 up:enzyme ?enzyme .
+  ?enzyme up:activity ?act .
+}
