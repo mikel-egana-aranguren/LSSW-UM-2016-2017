@@ -1,0 +1,9 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0: <http://uniprot/ontology/prop/> .
+
+<http://um.es/resource/Q5SIF0>
+  rdfs:label "Q5SIF0" ;
+  ns0:participates-in <http://geneontology/process/ATP-binding> ;
+  ns0:part-of <http://geneontology/component/cell> .
+  
+<http://geneontology/process/ATP-binding> rdfs:label "Q5SIF0" .

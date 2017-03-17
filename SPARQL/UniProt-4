@@ -1,0 +1,25 @@
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/>
+PREFIX ec:<http://purl.uniprot.org/enzyme/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX bibo:<http://purl.org/ontology/bibo/>
+PREFIX dc:<http://purl.org/dc/terms/>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX faldo:<http://biohackathon.org/resource/faldo#>
+PREFIX up:<http://purl.uniprot.org/core/> 
+
+SELECT DISTINCT ?id ?date ?uniprotID
+
+WHERE{
+
+?prot a up:Protein .
+?prot up:mnemonic ?uniprotID .
+?prot up:encodedBy ?name .
+?name skos:altLabel ?id .
+?prot up:created ?date .
+
+FILTER (?date >= xsd:date('2016-01-01') )
+
+}
